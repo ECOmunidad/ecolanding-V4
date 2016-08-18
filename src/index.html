@@ -7,11 +7,14 @@
     <meta name="description" content="Fundación Ecomunidad: Uniendo la tecnología con el medio ambiente">
     <meta name="author" content="trecetp">
 
-    <title>ECOmunidad | Unimos la tecnología con el medio ambiente</title>
+    <title>ECOmunidad | Tecnología al servicio del medio ambiente</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/rubino.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +39,7 @@
     <div id="top" class="header">
         <div class="vert-text">
             <img src="img/logo_ecomunidad4.png" alt="ECOmunidad">
-            <h3>Unimos la tecnología con el medio ambiente</h3>
+            <h3>Tecnología al servicio del medio ambiente</h3>
             <br>
             <a href="#about" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-leaf"></span> Conócenos </a>
         </div>
@@ -49,7 +52,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <h2>ECOmunidad es una Organización sin ánimo de lucro</h2>
-                    <p class="lead"> líder en innovación y desarrollo de proyectos tecnológicos enfocados en solucionar problemas ambientales de las comunidades y de la sociedad en general. Creadores de RECYpuntos el primer aplicativo web y movil para reciclaje en Colombia</p>
+                    <p class="lead"> Líder en innovación y desarrollo de proyectos tecnológicos enfocados en solucionar problemas ambientales de las comunidades y de la sociedad en general. Creadores de RECYpuntos el primer aplicativo web y movil para reciclaje en Colombia.</p>
                     <p class="lead"> </p>
                     <a href="#apoyanos" class="btn btn-success">Apóyanos</a>
                 </div>
@@ -57,6 +60,17 @@
         </div>
     </div>
     <!-- /Intro -->
+
+    <!-- Callout -->
+    <div id="recypuntos" class="callout">
+        <div class="vert-text">
+            <img src="img/logo_recypuntos.png" alt="">
+            <h3>Aplicativo Web y Movil para el Reciclaje</h3>
+            <br>
+            <a href="http://recypuntos.org" class="btn btn-lg btn-success"><b><span class="glyphicon glyphicon-hand-right"></span> www.recypuntos.org</b></a>
+        </div>
+    </div>
+    <!-- /Callout -->
 
     <!-- Services -->
     <div id="services" class="services">
@@ -74,14 +88,14 @@
                             <div class="service-item">
                                 <i class="service-icon fa fa-laptop"></i>
                                 <h4>Desarrollo de Software</h4>
-                                <p>Para aplicativos web y dispositivos móviles (IOS, Android, FirefoxOS, Windows Phone), desarrollo de software especializado en temas ambientales</p>
+                                <p>Aplicativos web y móviles (IOS, Android, FirefoxOS, Windows Phone), especializado en temas ambientales.</p>
                             </div>
                         </div>
                         <div class="col-sm-6 text-center">
                             <div class="service-item">
                                 <i class="service-icon fa fa-gears"></i>
                                 <h4>Desarrollo de Hardware</h4>
-                                <p>Dispositivos electrónicos y/o mecánicos para mediciones ambientales, captura de datos, conectividad y eficiencia energética</p>
+                                <p>Dispositivos electrónicos y/o mecánicos para mediciones ambientales, captura de datos, conectividad y eficiencia energética.</p>
                             </div>
                         </div>
                     </div>
@@ -92,14 +106,14 @@
                             <div class="service-item">
                                 <i class="service-icon fa fa-search "></i>
                                 <h4>Investigación</h4>
-                                <p>Análisis de información mediante procesos de Big Data, para obtención de datos, informes y estadísticas ambientales</p>
+                                <p>Análisis de información mediante procesos de Big Data, para obtención de datos, informes y estadísticos en temas medioambientales</p>
                             </div>
                         </div>
                         <div class="col-sm-6 text-center">
                             <div class="service-item">
                                 <i class="service-icon fa fa-rss "></i>
                                 <h4>Green Tic</h4>
-                                <p>Proyectos y consultoría en el área de Green Tic, para optimizar y hacer sostenibles las tecnologías de información y comunicación para empresas y comunidades</p>
+                                <p>Proyectos y consultoría en el área de Green Tic, para optimizar y hacer sostenibles las tecnologías de información y comunicación para empresas y comunidades.</p>
                             </div>
                         </div>
                     </div>
@@ -110,17 +124,129 @@
     </div>
     <!-- /Services -->
 
-    <!-- Callout -->
-    <div id="recypuntos" class="callout">
-        <div class="vert-text">
-            <img src="img/logo_recypuntos.png" alt="">
-            <h3>Aplicativo Web y Movil para el reciclaje</h3>
+    <!--Work section-->
+    <section id="work">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="center-block text-center">
+                    <h2 class="sectionTitle pretty"><span>PROYECTOS</span></h2>
+                </div>
+            </div>
+        </div> -->
+        <div class="row">
+            <!-- Work tiles start here -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                    <div class="work-image"></div>
+                    <div class="work-hover blue">
+                        <div class="work-hover-title">
+                            <h4>RECYPUNTOS</h4>
+                            <div class="link-inner">
+                                <a href="http://www.recypuntos.org" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                <a href="#mdlrecypuntos" class="my-work" data-toggle="modal" data-target="#mdlrecypuntos"><div class="btn-more"></div></a><!--Link to modal-->
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/work/01.recypuntos.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover">
+                            <div class="work-hover-title">
+                                <h4>ANÁLISIS BIG DATA</h4>
+                                <div class="link-inner">
+                                    <!-- <a href="#" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work" data-toggle="modal" data-target="#mdlbigdat"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <img src="img/work/06.bigdata.png" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover blue">
+                            <div class="work-hover-title">
+                                <h4>EXPEDICIÓN BOGOTÁ</h4>
+                                <div class="link-inner">
+                                    <!-- <a href="#" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work" data-toggle="modal" data-target="#mdlexpbog"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <img src="img/work/03.expbogota.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover">
+                            <div class="work-hover-title">
+                                <h4>CONECTIVIDAD AREAS REMOTAS</h4>
+                                <div class="link-inner">
+                                    <!-- <a href="#" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work" data-toggle="modal" data-target="#mdlconrem"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <!-- <img src="img/work/08.areasremotas.png" class="img-responsive" alt=""> -->
+                        <img src="img/work/08.areasremotas2.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
         </div>
-    </div>
-    <!-- /Callout -->
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover">
+                            <div class="work-hover-title">
+                                <h4>SOFTWARE DESARROLLO SOSTENIBLE</h4>
+                                <div class="link-inner">
+                                    <!-- <a href="#" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work" data-toggle="modal" data-target="#mdldessos"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <img src="img/work/05.softwareds.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover blue">
+                            <div class="work-hover-title">
+                                <h4>MYSTERY OF SUALL</h4>
+                                <div class="link-inner">
+                                    <a href="http://suall.puetearandaestic.com" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work"  data-toggle="modal" data-target="#mdlsuall"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <img src="img/work/02.mystery.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover">
+                            <div class="work-hover-title">
+                                <h4>CHARLAS Y CAPACITACIONES</h4>
+                                <div class="link-inner">
+                                    <!-- <a href="#" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work" data-toggle="modal" data-target="#mdlcharlas"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <img src="img/work/07.charlas.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+            <div class="col-lg-3 col-md-3 col-sm-6 work">
+                       <div class="work-image"></div>
+                        <div class="work-hover blue">
+                            <div class="work-hover-title">
+                                <h4>MICROCOMPUTADORAS</h4>
+                                <div class="link-inner">
+                                    <!-- <a href="#" target="_blank"><div class="btn-hover"></div></a><!--Link to your work-->
+                                    <a href="#" class="my-work" data-toggle="modal" data-target="#mdlsbclnx"><div class="btn-more"></div></a><!--Link to modal-->
+                                </div>
+                            </div>
+                       </div>
+                        <img src="img/work/04.hardwareambiental.jpg" class="img-responsive" alt="">
+            </div><!-- work tile end -->
+        </div>
+    </section>
 
     <!-- Portfolio -->
-    <div class="portfolio">
+    <!-- <div class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-8 col-md-offset-2 text-center">
@@ -153,7 +279,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- /Portfolio -->
 
     <!-- Call to Action -->
@@ -162,47 +288,254 @@
             <div class="row">
                 <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
                     <div class="row">
-                        <div class="col-sm-4">
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <h3>Puedes usar RECYpuntos visitando su pagina web desde tu computador o tu teléfono movil</h3>
-                            <br>
-                            <br>
-                            <a href="http://recypuntos.org" class="btn btn-lg btn-success"><b><span class="glyphicon glyphicon-hand-right"></span> www.recypuntos.org</b></a>
-                            <br><br>
-                        </div>
                         <div class="col-sm-4" >
-                            <img src="img/telefono2.png" alt="" class="img-responsive img-center">
+                            <img src="img/educacion.png" alt="" class="img-responsive img-center">
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-8">
+                            <h3>ESCUELA VIRTUAL EN RECICLAJE</h3>
                             <br>
+                            <h4>Esta escuela tendrá como objetivo principal promover en los participantes la cultura de consumo responsable, la correcta separación en la fuente y el aprovechamiento de residuos, enfoques necesarios para alcanzar la sostenibilidad,  a través de un espacio de formación teórica que contribuya en la transformación del modelo de gestión de residuos del país</h4>
                             <br>
-                            <br>
-                            <br>
-                            <h3>O puedes descargarlo GRATIS en tu teléfono móvil o tableta para llevarla siempre contigo</h3>
-                            <br>
-                            <br>
-                            <div class="row">
-                                <div class="col-md-6 text-center">
-                                    <a href="https://play.google.com/store/apps/details?id=com.ecomunidad.recypuntos"><img class="img-responsive img-center" src="img/googleplay.png" alt="Android"></a>
-                                    <br>
-                                </div>
-                                <div class="col-md-6">
-                                    <img class="img-responsive img-center" src="img/appstore.png" alt="IOS">Próximamente
-                                    <br>
-                                </div>
-                            </div>
+                            <a href="http://www.basuracerocolombia.com/proyecto/1a-escuela-virtual-de-reciclaje-y-sostenibilidad/" target="_blank" class="btn btn-lg btn-success"><b><!-- <span class="glyphicon glyphicon-hand-right"></span> --> INSCRÍBETE</b></a>
                             <br><br>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
     <!-- /Call to Action -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="mdlrecypuntos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/recypuntos.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="red">RECYPUNTOS</h2>
+                            <p class="item-intro text-muted">La app del reciclaje en Colombia</p>
+                            <p>Recypuntos es el primer aplicativo web y móvil desarrollado en Colombia que promueve la cultura del reciclaje y el aprovechamiento de residuos. El usuario podrá encontrar en el app mas de 5.000 puntos a nivel nacional donde puede entregar residuos como pilas, bombillos, electrónicos, medicamentos vencidos, aceite de cocina, etc, los cuales no deben ser arrojados a la caneca sino que precisan de una disposición especial.</p>
+                            <!-- <span class="btn-launch-red"><a href="https://play.google.com/store/apps/details?id=com.ecomunidad.recypuntos" title="PlayStore" target="_blank"><i class="fa fa-share-square-o"></i> Play Store</a></span> -->
+                            <!-- <span class="btn-launch-red"><a href="https://itunes.apple.com/us/app/recypuntos/id1097870701" title="App Store" target="_blank"><i class="fa fa-share-square-o"></i> App Store</a></span> -->
+                            <span class="btn-launch-red"><a href="http://recypuntos.org/" title="Ir a la página Web" target="_blank"><i class="fa fa-share-square-o"></i> www.recypuntos.org</a></span>
+                            <!-- <span class="btn-close-red" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="mdlsuall" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/mystery.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="red">JUEGO MYSTERY OF SUALL</h2>
+                            <!-- <p class="item-intro text-muted">Just some lorem ipsum</p> -->
+                            <p>Juego virtual de realidad aumentada para celulares y computadores desarrollado para la Alcaldía Local de Puente Aranda, diseñado para promover la apropiación del territorio por parte de los estudiantes de colegio, los cuales tienen que ir resolviendo retos (como georeferenciar lugares específicos o tomarse selfies en lugares reconocidos) a lo largo de la localidad en diferentes categorías como historia, geografía, salud, medio ambiente. </p>
+                            <span class="btn-launch-red"><a href="http://suall.puentearandaestic.com/" title="Launch website" target="_blank"><i class="fa fa-share-square-o"></i> suall.puentearandaestic.com</a></span>
+                            <!-- <span class="btn-close-red" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="mdlexpbog" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/expbogota.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="blue">EXPEDICIÓN BOGOTÁ</h2>
+                            <!-- <p class="item-intro text-muted">Photo credits: <a href="https://www.flickr.com/photos/brettprice/" target="_blank">Brett Price</a></p> -->
+                            <p>Expedición Bogotá es una app que busca promover el turismo sostenible en Bogotá y sus alrededores, invitando a los usuarios a conocer y visitar los lugares de la ciudad donde se preservan espacios naturales y se realizan diferentes actividades al aire libre, mediante una mecánica diferente de juego y realidad aumentada.<br/><br/>
+                            Proyecto en desarrollo presentado en la hackaton del Jardín Botánico 2014, en búsqueda de alianzas o inversionistas para completar su desarrollo.</p>
+                            <!-- <span class="btn-launch-blue"><a href="#" title="Launch website" target="_blank"><i class="fa fa-share-square-o"></i> Launch</a></span> -->
+                            <!-- <span class="btn-close-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="mdlsbclnx" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/2.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="blue">MICROCOMPUTADORAS</h2>
+                            <p class="item-intro text-muted">Computadoras responsables con el medio ambiente</p>
+                            <p>En su proposito de poner la tecnología al servicio del medio ambiente, hemos venido promoviendo el uso de microcomputadoras. Estas poseen caracteríscas técnicas suficientes para soportar la mayoria de tareas convencionales pero con un consumo energético mucho menor (solo 1 W) siendo asi mucho mas amigable con el medio ambiente.</p>
+                            <!-- <span class="btn-launch-blue"><a href="#" title="Launch website" target="_blank"><i class="fa fa-share-square-o"></i> Launch</a></span> -->
+                            <!-- <span class="btn-close-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="mdldessos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/7.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="red">Software Empresarial para desarrollo sostenible</h2>
+                            <!-- <p class="item-intro text-muted">Just some lorem ipsum</p> -->
+                            <p>Proyecto en desarrollo que tiene como objetivo evaluar la sostenibilidad ambiental, social y económica de las empresas. <br>
+                            Tiene como fundamento el poder generar una información relevante y actualizada de la forma de sostenibilidad que tenga la empresa y darle lineamientos para mejorar en aspectos importantes. <br>
+                            El software toma como base la información contable, de gestión y administrativa de la empresa para poder determinar una evaluación real de la compañía. </p>
+                            <!-- <span class="btn-launch-red"><a href="#" title="Launch website" target="_blank"><i class="fa fa-share-square-o"></i> Launch</a></span> -->
+                            <!-- <span class="btn-close-red" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="mdlbigdat" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/8.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="red">Análisis con Big Data</h2>
+                            <!-- <p class="item-intro text-muted">Just some lorem ipsum</p> -->
+                            <p>El análisis de 'grandes datos' es el proceso de examinar grandes cantidades de datos de una variedad de tipos (big data) para descubrir patrones, correlaciones u otra información útil. Estas fuentes de datos son normalmente las que se encuentran via internet, pueden incluir paginas web, redes sociales, medios de comunicación, registros e información captada por los sensores, etc. <br><br>
+                            En este punto hemos querido desde la fundación aprovechar estas nuevas tecnologías de análisis para realizar estudios que permitan explorar temas medioambientales que normalmente los medios tradicionales no hacen.</p>
+                            <span class="btn-launch-red"><a href="http://blog.ecomunidad.co/index.php/tag/big-data/" title="Launch website" target="_blank"><i class="fa fa-share-square-o"></i> Ver Artículos</a></span>
+                            <!-- <span class="btn-close-red" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="mdlcharlas" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/3.jpg" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="blue">Charlas, Talleres, Capacitaciones</h2>
+                            <!-- <p class="item-intro text-muted">Photo credits: <a href="https://www.flickr.com/photos/brettprice/" target="_blank">Brett Price</a></p> -->
+                            <p>Realizamos divulgación por medio  de charlas, talleres y capacitaciones, con el fin de compartir nuestra experiencia y conocimiento en el desarrollo de tecnología para el Medio Ambiente o en temas técnicos relacionados con la parte tecnológica, Ingeniera Ambiental y gestión de residuos. <br><br>
+                            Hemos participado en diferentes congresos, foros y conversatorios dando a conocer nuestras experiencia y opiniones sobre temas racionalizados en nuestra linea de acción. </p>
+                            <span class="btn-launch-blue"><a href="mailto:info@ecomunidad.co" title="contactanos" target="_blank"><i class="fa fa-envelope-o"></i> Contácnanos</a></span>
+                            <!-- <span class="btn-close-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="mdlconrem" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <img class="img-responsive center-block" src="img/work/4.png" alt="your project">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal-body">
+                            <h2 class="blue">CONECTIVIDAD EN AREAS REMOTAS</h2>
+                            <!-- <p class="item-intro text-muted">Photo credits: <a href="https://www.flickr.com/photos/brettprice/" target="_blank">Brett Price</a></p> -->
+                            <p>Llevar conectividad de calidad a ciertas zonas del pais suele ser bastante costoso y complicado, y teniendo en cuenta que gran parte del contenido que hoy se tiene esta en formato digital en linea, desde la fundación estamos desarrollando herramientas tecnologías que permitan solventar este problema de una manera económica y sobre todo responsable con el medio ambiente.</p>
+                            <!-- <span class="btn-launch-blue"><a href="#" title="Launch website" target="_blank"><i class="fa fa-share-square-o"></i> Launch</a></span> -->
+                            <!-- <span class="btn-close-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="apoyanos" class="apoyanos">
         <div class="container">
@@ -223,8 +556,6 @@
                                 <i class="service-icon fa fa-thumbs-o-up"></i>
                                 <h4>Trabaja con nosotros</h4>
                                 <p>Si estás comprometido con la preservación y cuidado del medio ambiente, envíanos tu hoja de vida y la tendremos en cuenta para nuestros proyectos. buscamos profesionales en Medio Ambiente y desarrolladores de software y hardware</p>
-
-                                </form>
                             </div>
                         </div>
                         <div class="col-sm-4 text-center">
@@ -295,8 +626,13 @@
     <!-- /Footer -->
 
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/jquery-1.10.2.js"></script> -->
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap and js stuff -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
+
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
     <script>
@@ -304,30 +640,38 @@
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");
         });
-        </script>
-        <script>
+
         $("#menu-toggle").click(function(e) {
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");
         });
         $("#contact li").tooltip();
+
+        // $(function() {
+        //     $('a[href*=#]:not([href=#])').click(function() {
+        //         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+        //             var target = $(this.hash);
+        //             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        //             if (target.length) {
+        //                 $('html,body').animate({
+        //                     scrollTop: target.offset().top
+        //                 }, 1000);
+        //                 return false;
+        //             }
+        //         }
+        //     });
+        // });
     </script>
     <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
+      ga('create', 'UA-46022742-3', 'auto');
+      ga('send', 'pageview');
+
     </script>
 
 </body>
