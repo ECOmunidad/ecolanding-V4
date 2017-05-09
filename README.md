@@ -1,3 +1,3 @@
-# Página web de la fundacción
+# Página web de la fundación
 
 
